@@ -1,0 +1,17 @@
+{
+  "name": "docker_byhero",
+  "version": "1.0.0",
+  "description": "OmmiStack project",
+  "author": "Leandro Gonçalvea <contato.leandrogoncalves@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "license": "ISC"
+}
