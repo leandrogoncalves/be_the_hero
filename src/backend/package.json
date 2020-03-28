@@ -5,13 +5,19 @@
   "author": "Leandro Gonçalvea <contato.leandrogoncalves@gmail.com>",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon src/server.js"
   },
   "dependencies": {
-    "express": "^4.16.1"
+    "cors": "^2.8.5",
+    "express": "^4.16.1",
+    "knex": "^0.20.13",
+    "sqlite3": "^4.1.1"
   },
   "directories": {
     "doc": "docs"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
 }
