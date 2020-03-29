@@ -1,2 +1,2 @@
-# byhero
-OmmiStack week project
+# Be The Hero
+OmniStack week project
