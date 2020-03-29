@@ -5,8 +5,8 @@ const cors = require('cors');
 const routes = require('./routes');
 
 // Constants
-const PORT = 3333;
-const HOST = '0.0.0.0';
+const PORT = 80;
+const HOST = 'localhost';
 
 // App
 const app = express();
