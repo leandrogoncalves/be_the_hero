@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://192.168.0.3:3333'
+    baseURL: 'https://my-json-server.typicode.com/leandrogoncalves/be_the_hero_fake_api'
 });
 
 export default api;
